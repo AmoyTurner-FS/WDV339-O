@@ -4,7 +4,7 @@
 
 This project is the starting point for a full-stack web application that will be developed over the next 4 weeks. The purpose of this repository is to organize the codebase, document technical requirements, and track development progress.
 
-### 🔧 Planned Features (examples — can update later):
+### 🔧 Planned Features:
 
 - A simple backend API using Node.js and Express
 - Frontend interface (HTML/CSS/JS or React — to be decided)
