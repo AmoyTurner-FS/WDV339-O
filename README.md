@@ -29,7 +29,38 @@ Follow these steps to clone and run the project on your local machine.
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/AmoyTurner-FS/WDV339-O.git
 cd WDV339-O
-```
+Install dependencies
+
+npm install
+
+Set up your environment variables
+Create a .env file in the /server folder and add:
+
+PORT=3000
+
+Run the server
+
+npm start
+
+Test the server
+Open your browser and go to:
+http://localhost:3000/health
+
+You should see:
+
+{
+"ok": true,
+"port": 3000,
+"envLoaded": true
+}
+
+## 🔗 Links
+
+Local API http://localhost:3000/health
+
+GitHub Repo https://github.com/AmoyTurner-FS/WDV339-O
+
+Staging (Optional) Coming soon
+Live Site (Optional) Coming soon
