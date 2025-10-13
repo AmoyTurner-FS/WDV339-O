@@ -64,3 +64,38 @@ GitHub Repo https://github.com/AmoyTurner-FS/WDV339-O
 
 Staging (Optional) Coming soon
 Live Site (Optional) Coming soon
+
+### Week 2 Update: Spotify Integration
+
+Spotify Developer Setup
+
+Go to the Spotify Developer Dashboard
+and create a new app.
+
+Under your app’s settings, add this Redirect URI:
+
+http://127.0.0.1:3000/callback
+
+Copy your Client ID and Client Secret from the dashboard.
+
+Add them to your .env file (as shown above).
+
+Available Routes
+
+GET /login – Redirects users to Spotify’s login page.
+
+GET /callback – Handles the Spotify redirect, saves tokens, and returns a JWT.
+
+GET /me – Retrieves your stored Spotify profile info (requires JWT).
+
+POST /refresh_token – Refreshes Spotify access tokens (requires JWT).
+
+GET /health – Basic route to confirm the server is running.
+
+## 🔗 Links
+
+Localhost: http://127.0.0.1:3000
+
+Example API endpoint: http://127.0.0.1:3000/me
+
+Spotify Developer Dashboard: https://developer.spotify.com/dashboard
