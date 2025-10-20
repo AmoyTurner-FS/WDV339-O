@@ -99,3 +99,11 @@ Localhost: http://127.0.0.1:3000
 Example API endpoint: http://127.0.0.1:3000/me
 
 Spotify Developer Dashboard: https://developer.spotify.com/dashboard
+
+## Week 3 Progress
+
+- Added custom backend routes for Spotify API.
+- Implemented JWT refresh logic to automatically renew expired tokens.
+- Added /auth/status route to check if a user's token is still valid.
+- Created /spotify/playlists and /spotify/search endpoints that fetch data using the user's Spotify access token.
+- Verified all routes locally using curl commands.
